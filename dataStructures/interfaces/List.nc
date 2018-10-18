@@ -23,4 +23,5 @@ interface List<t>{
 	command bool isEmpty();
 	command uint16_t size();
 	command t get(uint16_t position);
+	command t* getAddr(uint16_t position);
 }

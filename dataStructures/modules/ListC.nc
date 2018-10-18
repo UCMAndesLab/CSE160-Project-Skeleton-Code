@@ -91,4 +91,8 @@ implementation{
 	command t List.get(uint16_t position){
 		return container[position];
 	}
+
+	command t* List.getAddr(uint16_t position){
+		return &container[position];
+	}
 }
